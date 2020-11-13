@@ -1,0 +1,84 @@
+body {
+  color: #1c2b2d;                   /** inherit **/
+  background-color: #f3bad6;
+  font-family: Georgia, serif;
+}
+
+strong {                    /** Specificity  **/
+  color: #150485;
+  color: #7579e7;             /** inherit **/
+}
+
+h1 {
+  color: #0f4c75;          /** inherit **/
+  font-weight: bold;
+}
+
+h3 {
+  color: #0f4c75;
+  line-height: 150%;
+  font-family: Times, serif;
+}
+
+h2 {
+  color: #0f4c75;
+  text-decoration: green wavy underline;
+}
+
+img:hover {
+  background-color: blue;
+}
+
+a:hover {
+  background-color: #c62a88;
+}
+
+.cambria {
+  font-family: Cambria, serif;
+}
+
+form {
+  background-image: repeating-linear-gradient(#f69d3c, #3f87a6);
+  background-size: 14%;
+  background-repeat: no-repeat;
+}
+
+/*****CLASS SELECTORS *****/
+.redh3 {
+  color: red;
+  border-color: red;
+}
+
+.blueborder {
+  color: blue;
+  border-color: blue;
+}
+
+.greenh3 {
+  color: green;
+  border-color: green;
+}
+
+.blackh4 {
+  color: black;
+}
+
+.blueh1 {
+  color: blue;
+}
+
+#mainheading {
+  color: white;
+}
+
+#dotted {
+  border-top-style: dotted;
+}
+
+#double {
+  border-top-style: inset;
+}
+
+.georgia {
+  font-family: Georgia, serif;
+}
