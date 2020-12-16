@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>flex</title>
+  <style media="screen">
+  #flex-conatainer {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    height: 300px;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+
+  .flex-item {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    flex-grow: 1;
+  }
+
+  #box {
+    height: 500px;
+    width: 500px;
+    background-color: hotpink;
+  }
+  #upper-half {
+    height: 50%;
+    width: 100%;
+    border: 5px solid black;
+    box-sizing: border-box;
+  }
+  #upper-quarter {
+    height: 100%;
+    width: 50%;
+  }
+  #box div {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="flex-conatainer">
+    <span class="flex-item"></span>
+    <span class="flex-item"></span>
+    <span class="flex-item"></span>
+  </div>
+<br>
+  <div id="box">
+    <div id="upper-half">
+      <div id="upper-quarter"> </div>
+      </div>
+
+    </div>
+</body>
+
+</html>
